@@ -6,7 +6,7 @@ The user will be able to test the functionality of the entire program by answeri
 > *Simple*   
 > Do you want to search by artist, difficulty, key, or tuning?  
 > *Artist*   
-> Please input the name of the artist
+> Please input the name of the artist  
 > *Adele*
 
 If the artist they input is not in the database, they will get back an "invalid response" message. If the artist is in the database, their results will print like this.
