@@ -60,7 +60,7 @@ class Guitar:
             num_recommendations = 10
             if difficulty == "C" and amount == "B":
             	print("There are only 5 advanced songs in this database.\n")
-        else:  # Assuming "C" for 15 recommendations
+        else:
             num_recommendations = 15
             if difficulty == "C" and amount == "B":
             	print("There are only 5 advanced songs in this database.\n")
@@ -88,10 +88,10 @@ class Guitar:
 	            if response == "B":
 	                break
 
-	    #Takes the original number of song recs the user chose, so it skips over the songs that already printed, and prints the next 10
+	#Takes the original number of song recs the user chose, so it skips over the songs that already printed, and prints the next 10
         next_recommended_songs = filtered_songs[num_recommendations:num_recommendations + 10]   
 
-        #The "Additional Recommendations" will not be printed if they chose the advanced level
+        #"Additional Recommendations" will not be printed if they chose the advanced level
         if difficulty != "C":
 	        print("\nAdditional Recommendations:\n")
 	        for song in next_recommended_songs:
