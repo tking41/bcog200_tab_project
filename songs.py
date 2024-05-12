@@ -19,7 +19,7 @@ class Guitar:
             print(instructions)
 
     def ask_questions(self):
-        valid_response = False  # Initialize valid_response here
+        valid_response = False
 
         while not valid_response:
             accepted_response = ["A", "B", "C"] 
