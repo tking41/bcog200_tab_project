@@ -1,7 +1,6 @@
 import csv
 from songs import Guitar
 
-
 # This file should print 3 simulated song list recommendations for novice, intermediate, and advanced players. 
 
 def load_song_tuples(database):
