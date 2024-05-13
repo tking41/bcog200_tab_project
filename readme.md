@@ -1,4 +1,4 @@
-# BCOG 200 Guitar Database Project
+# BCOG 200 Guitar Songs Project
 
 This final project will allow users to search and retrieve popular songs with guitars in them based on their difficulty level. I will use an existing data set that has all of the relevent song details and chord/tab information and the code will organize the data into a class. The idea is that you will be able to search for a list of songs based on your difficulty level through the command line and make disovering songs much easier.
 
