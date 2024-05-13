@@ -79,7 +79,7 @@ class Guitar:
             	print("There are only 5 advanced songs in this database.\n")
         else:  # Assuming "C" for 15 recommendations
             num_recommendations = 15
-            if difficulty == "C" and amount == "B":
+            if difficulty == "C" and amount == "C":
             	print("There are only 5 advanced songs in this database.\n")
 
         #Uses the variable of the number of recs to get the number of filtered songs to save
