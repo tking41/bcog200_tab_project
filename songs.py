@@ -57,7 +57,7 @@ class Guitar:
         next_recommended_songs = filtered_songs[num_recommendations:num_recommendations + 10]   
 
         #The "Additional Recommendations" will not be printed if they chose the advanced level
-        if difficulty != "C":
+        if difficulty != "C" and response == "A":
             print("\nAdditional Recommendations:\n")
             for song in next_recommended_songs:
                 print(f"{song[0]} - {song[1]}, Key:{song[6]}, Capo:{song[7]}, Tuning:{song[8]}")
