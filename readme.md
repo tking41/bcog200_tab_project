@@ -9,3 +9,5 @@ This final project will allow users to search and retrieve popular songs with gu
 4. Formats the way the results will print
 
 Please download the files and when you're ready to begin, type in "python songs.py" on your command line.
+
+Database source: https://www.kaggle.com/datasets/thomaskonstantin/top-850-guitar-tabs/data
